@@ -1,8 +1,8 @@
 ## Project Title
-Healthy Environment Healthy Minds
+Ecological Well Being and Mental Health
 ## Desciption
-While people from all around the world are trying to built self sustaining residential areas, in Turkey more and more forests are cut down to build traditional buildings and a war againts 'green' seems to be on for a while. Meanwhile there are researhes suggesting that even the fake visual of a natural environement can make the healing process much faster. So I was curios about the correlation Learning new shocking facts about this everyday, I wanted to see if there is any correlation 
+While people from all around the world are trying to built self sustaining residential areas, in Turkey more and more forests are cut down to build traditional buildings and a war againts 'green' seems to be on for a while. Meanwhile there are researhes suggesting that even the fake visual of a natural environement can make the healing process much faster. In this study, a comparison between the amount of hectares vanished from Turkey’s forests and number of people hospitalised due to psychological disorders throughout 10 cities between 2009 and 2013 is intended to be shown.  
 ## Demo Link or Hosted/Embedded Visualizations
 
 ## Project Procedure: describe your data processing, visualization selection, and analyses post-visualization
-I have first started my final project with the aim of visualizing the my thesis bibliography 
+I have first started my final project with the aim of visualizing the my thesis bibliography in a network map. However after reading the news on how we have cut down the forest in Istanbul to build a bridge that is absolutaly harder to use have effected birds, turtles and other animals living in the area, I was angry. I wanted to show people that it directly effects us as well, even if these people do not care about animals. I have looked at respiratory disaeses, as it is the one that comes to mind. However it was too obvious of a relationship and I knew it effected more than that. So I have researched and found out the number of patients that have visisted the hospital in mental health related issues and tried to idendify if it is a contributing facter too, to our stress and other mental related problems. 
