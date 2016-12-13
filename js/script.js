@@ -42,10 +42,8 @@
 	d3.csv('data/data.csv', function(error, data) {
 		if (error) return console.error(error);
 
-		// ignore last row in csv (total)
-		data = data.slice(0, -1);
 
-	  color.domain(d3.keys(data[0]).filter(function(key) { return key !== 'month'; }));
+	  color.domain(d3.keys(data[0]).filter(function(key) { return key !== 'year'; }));
 
 		console.log(data);
 
@@ -56,7 +54,7 @@
 	    d.total = d.apps[d.apps.length - 1].y1;
 	  });
 
-	  x.domain(data.map(function(d) { return d.month; }));
+	  x.domain(data.map(function(d) { return d.year; }));
 	  y.domain([0, d3.max(data, function(d) { return d.total; })]);
 
 	  svg.append('g')
@@ -74,13 +72,13 @@
 	      .style('text-anchor', 'end')
 	      .text(valueLabel);
 
-	  var month = svg.selectAll('.month')
+	  var year = svg.selectAll('.year')
 	      .data(data)
 	    .enter().append('g')
 	      .attr('class', 'g')
-	      .attr('transform', function(d) { return 'translate(' + x(d.month) + ',0)'; });
+	      .attr('transform', function(d) { return 'translate(' + x(d.year) + ',0)'; });
 
-	  month.selectAll('rect')
+	 year.selectAll('rect')
 	      .data(function(d) { return d.apps; })
 	    .enter().append('rect')
 	      .attr('width', x.rangeBand())
